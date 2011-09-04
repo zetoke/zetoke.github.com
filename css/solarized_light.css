@@ -1,7 +1,7 @@
 body{
     background: #fdf6e3;
     color: #657b83;
-    font-family: Georgia, sans-serif;
+    font-family: "Droid Sans", Helvetica, sans-serif;
     margin: 0;
     -webkit-font-smoothing: antialiased;
 }
@@ -35,7 +35,7 @@ h2 {
     left: 15px;
     top: 30px;
     width: 85px;
-    font-family: Helvetica, sans-serif;
+    font-family: "Droid Sans", Helvetica, sans-serif;
 }
 
 #header .avatar{
@@ -65,8 +65,12 @@ h2 {
 
 #top {
     position: fixed;
-    left: 0px;
+    left: 15px;
     top: 0px;
+}
+
+#top a{
+    text-decoration: none;
 }
 
 #post {
