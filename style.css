@@ -1,4 +1,4 @@
-body {
+/*body {
 background: #000 url(bg.png);
 background-repeat: repeat;
 font-family: "Roboto", Helvetica, Arial, sans-serif;
@@ -34,4 +34,26 @@ padding-right: 3px;
 }
 
 @media (max-width: 320px) {
-#wrap { width: 290px; }
+#wrap { width: 290px; }*/
+.avatar {
+	background: url(https://lh5.googleusercontent.com/-tywPQ5YrY8g/UD98HtNtz7I/AAAAAAAAAb8/Y2i7tLtqMbo/s200-no/d129780e27043f703f04d6484c94235e.png) center center;
+	background-size: 99%;
+	background-position: 45%;
+	box-shadow: 0 0 0 1px #aaa;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: relative;
+	margin: auto;
+}
+
+.container {
+	height: 380px;
+	width: 250px;
+	margin: 10% auto;
+	text-align: center;
+}
+
+.links {
+	margin-top: 10%;
+}
