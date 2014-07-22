@@ -35,6 +35,10 @@ padding-right: 3px;
 
 @media (max-width: 320px) {
 #wrap { width: 290px; }*/
+body {
+    background:url(http://scotch.io/wp-content/uploads/2014/07/61.jpg);
+    /*background:url(cover.jpg);*/
+}
 .avatar {
 	background: url(https://lh5.googleusercontent.com/-tywPQ5YrY8g/UD98HtNtz7I/AAAAAAAAAb8/Y2i7tLtqMbo/s200-no/d129780e27043f703f04d6484c94235e.png) center center;
 	background-size: 99%;
@@ -54,6 +58,20 @@ padding-right: 3px;
 	text-align: center;
 }
 
+a {
+    color: #3E8BC9;
+}
+
 .links {
 	margin-top: 10%;
 }
+
+/*.well {*/
+    /*background-color: grey;*/
+/*}*/
+
+.wall {
+    background-color: #F1F1F1;
+    padding: 50px;
+}
+
